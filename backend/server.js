@@ -5,6 +5,7 @@ const app = express();
 
 // This is used for importing value of the variables from .env file
 require("dotenv").config();
+console.log(process.env.DATABASE_USERNAME);
 
 connect_to_database();
 
